@@ -1,0 +1,238 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns="http://java.sun.com/xml/ns/javaee" xmlns:web="http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd"
+	xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd"
+	id="WebApp_ID" version="2.5">
+	<display-name>JavaRefBookMLM</display-name>
+	<welcome-file-list>
+		<welcome-file>/index.jsp</welcome-file>
+	</welcome-file-list>
+
+
+	<servlet>
+		<servlet-name>AccountCtl</servlet-name>
+		<servlet-class>com.sunrays.javarefbook.mlm.ctl.AccountCtl</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>AccountCtl</servlet-name>
+		<url-pattern>/AccountCtl.do</url-pattern>
+	</servlet-mapping>
+
+
+	<servlet>
+		<servlet-name>CenterCtl</servlet-name>
+		<servlet-class>com.sunrays.javarefbook.mlm.ctl.CenterCtl</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>CenterCtl</servlet-name>
+		<url-pattern>/CenterCtl.do</url-pattern>
+	</servlet-mapping>
+	<servlet>
+		<servlet-name>CenterListCtl</servlet-name>
+		<servlet-class>com.sunrays.javarefbook.mlm.ctl.CenterListCtl</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>CenterListCtl</servlet-name>
+		<url-pattern>/CenterListCtl.do</url-pattern>
+	</servlet-mapping>
+
+
+	<servlet>
+		<servlet-name>ItemCtl</servlet-name>
+		<servlet-class>com.sunrays.javarefbook.mlm.ctl.ItemCtl</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>ItemCtl</servlet-name>
+		<url-pattern>/ItemCtl.do</url-pattern>
+	</servlet-mapping>
+	<servlet>
+		<description></description>
+		<display-name>ItemListCtl</display-name>
+		<servlet-name>ItemListCtl</servlet-name>
+		<servlet-class>com.sunrays.javarefbook.mlm.ctl.ItemListCtl</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>ItemListCtl</servlet-name>
+		<url-pattern>/ItemListCtl.do</url-pattern>
+	</servlet-mapping>
+
+
+	<servlet>
+		<servlet-name>GroupCtl</servlet-name>
+		<servlet-class>com.sunrays.javarefbook.mlm.ctl.GroupCtl</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>GroupCtl</servlet-name>
+		<url-pattern>/GroupCtl.do</url-pattern>
+	</servlet-mapping>
+	<servlet>
+		<servlet-name>GroupListCtl</servlet-name>
+		<servlet-class>com.sunrays.javarefbook.mlm.ctl.GroupListCtl</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>GroupListCtl</servlet-name>
+		<url-pattern>/GroupListCtl.do</url-pattern>
+	</servlet-mapping>
+
+
+	<servlet>
+		<servlet-name>OrganizationCtl</servlet-name>
+		<servlet-class>com.sunrays.javarefbook.mlm.ctl.OrganizationCtl</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>OrganizationCtl</servlet-name>
+		<url-pattern>/OrganizationCtl.do</url-pattern>
+	</servlet-mapping>
+	<servlet>
+		<servlet-name>OrganizationListCtl</servlet-name>
+		<servlet-class>com.sunrays.javarefbook.mlm.ctl.OrganizationListCtl</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>OrganizationListCtl</servlet-name>
+		<url-pattern>/OrganizationListCtl.do</url-pattern>
+	</servlet-mapping>
+
+
+	<servlet>
+		<servlet-name>MajorCategoryCtl</servlet-name>
+		<servlet-class>com.sunrays.javarefbook.mlm.ctl.MajorCategoryCtl</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>MajorCategoryCtl</servlet-name>
+		<url-pattern>/MajorCategoryCtl.do</url-pattern>
+	</servlet-mapping>
+	<servlet>
+		<servlet-name>MajorCategoryListCtl</servlet-name>
+		<servlet-class>com.sunrays.javarefbook.mlm.ctl.MajorCategoryListCtl</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>MajorCategoryListCtl</servlet-name>
+		<url-pattern>/MajorCategoryListCtl.do</url-pattern>
+	</servlet-mapping>
+
+
+	<servlet>
+		<servlet-name>MinerCategoryCtl</servlet-name>
+		<servlet-class>com.sunrays.javarefbook.mlm.ctl.MinerCategoryCtl</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>MinerCategoryCtl</servlet-name>
+		<url-pattern>/MinerCategoryCtl.do</url-pattern>
+	</servlet-mapping>
+	<servlet>
+		<description></description>
+		<display-name>MinerCategoryListCtl</display-name>
+		<servlet-name>MinerCategoryListCtl</servlet-name>
+		<servlet-class>com.sunrays.javarefbook.mlm.ctl.MinerCategoryListCtl</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>MinerCategoryListCtl</servlet-name>
+		<url-pattern>/MinerCategoryListCtl</url-pattern>
+	</servlet-mapping>
+
+
+	<servlet>
+		<servlet-name>UserCtl</servlet-name>
+		<servlet-class>com.sunrays.javarefbook.mlm.ctl.UserCtl</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>UserCtl</servlet-name>
+		<url-pattern>/UserCtl.do</url-pattern>
+	</servlet-mapping>
+	<servlet>
+		<servlet-name>UserListCtl</servlet-name>
+		<servlet-class>com.sunrays.javarefbook.mlm.ctl.UserListCtl</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>UserListCtl</servlet-name>
+		<url-pattern>/UserListCtl.do</url-pattern>
+	</servlet-mapping>
+	<servlet>
+		<servlet-name>RoleCtl</servlet-name>
+		<servlet-class>com.sunrays.javarefbook.mlm.ctl.RoleCtl</servlet-class>
+	</servlet>
+
+
+	<servlet-mapping>
+		<servlet-name>RoleCtl</servlet-name>
+		<url-pattern>/RoleCtl.do</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>RoleListCtl</servlet-name>
+		<servlet-class>com.sunrays.javarefbook.mlm.ctl.RoleListCtl</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>RoleListCtl</servlet-name>
+		<url-pattern>/RoleListCtl.do</url-pattern>
+	</servlet-mapping>
+
+
+	<servlet>
+		<servlet-name>UserProfileCtl</servlet-name>
+		<servlet-class>com.sunrays.javarefbook.mlm.ctl.UserProfileCtl</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>UserProfileCtl</servlet-name>
+		<url-pattern>/UserProfileCtl.do</url-pattern>
+	</servlet-mapping>
+	<servlet>
+		<description></description>
+		<display-name>PlanCtl</display-name>
+		<servlet-name>PlanCtl</servlet-name>
+		<servlet-class>com.sunrays.javarefbook.mlm.ctl.PlanCtl</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>PlanCtl</servlet-name>
+		<url-pattern>/PlanCtl.do</url-pattern>
+	</servlet-mapping>
+
+
+	<servlet>
+		<display-name>PlanListCtl</display-name>
+		<servlet-name>PlanListCtl</servlet-name>
+		<servlet-class>com.sunrays.javarefbook.mlm.ctl.PlanListCtl</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>PlanListCtl</servlet-name>
+		<url-pattern>/PlanListCtl.do</url-pattern>
+	</servlet-mapping>
+
+
+	<servlet>
+		<display-name>LoginCtl</display-name>
+		<servlet-name>LoginCtl</servlet-name>
+		<servlet-class>com.sunrays.javarefbook.mlm.ctl.LoginCtl</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>LoginCtl</servlet-name>
+		<url-pattern>/LoginCtl</url-pattern>
+	</servlet-mapping>
+
+
+	<servlet>
+		<display-name>LogoutCtl</display-name>
+		<servlet-name>LogoutCtl</servlet-name>
+		<servlet-class>com.sunrays.javarefbook.mlm.ctl.LogoutCtl</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>LogoutCtl</servlet-name>
+		<url-pattern>/LogoutCtl</url-pattern>
+	</servlet-mapping>
+
+
+	<servlet>
+		<description></description>
+		<display-name>MyProfileCtl</display-name>
+		<servlet-name>MyProfileCtl</servlet-name>
+		<servlet-class>com.sunrays.javarefbook.mlm.ctl.MyProfileCtl</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>MyProfileCtl</servlet-name>
+		<url-pattern>/MyProfileCtl.do</url-pattern>
+	</servlet-mapping>
+
+
+
+
+</web-app>
